@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>ModalDonate</title>
+</head>
+
+<body>
+    <style>
+        body {
+            padding: 15px 5px;
+
+        }
+
+        #donation-form .donately-donation-form {
+            max-width: 230px;
+            margin: 3px auto;
+            padding: 0px;
+        }
+    </style>
+    <div id="donation-form"></div>
+    <script src="https://cdn.donately.com/core/5.1/donately.min.js"></script>
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+
+
+            var search_campaign = location.search.substring(1)
+            // var search_campaign = "cmp_0fef2ae4507b"
+            var campaign = search_campaign.substring(0, 3) === "cmp" ? search_campaign : "cmp_c6ae1df4b5a5"
+            Donately.init({
+                selector: '#donation-form',
+                options: {
+                    "donately-id": "act_bb3d61929da9",
+                    "stripe-publishable-key": "pk_live_51Lpg6FJZYS8rLhckiRw1qMu0AzBu4RhHXHaicwQcdvACEoYFCiFdzIl9qsub8UqVSct7eFjfsaio6TjwhQE8Lq9r00apRXaPJE",
+                    "donately-form-id": "frm_a08b8a3de612",
+                    "donately-presets": "30,100,250,500,1000",
+                    "donately-amount": "",
+                    "donately-payment-options": "cc,ach",
+                    "donately-donor-pays-fees": "{\"cc\":{\"processor_percent\":\"0.029\",\"processor_fixed\":\"0.3\",\"processor_cap\":\"\",\"dntly_percent\":\"0.04\",\"complex_calc\":true},\"ach\":{\"processor_percent\":\"0.008\",\"processor_fixed\":\"0\",\"processor_cap\":\"5\",\"dntly_percent\":\"0.04\",\"complex_calc\":true}}",
+                    "donately-anonymous": true,
+                    "donately-onbehalf": true,
+                    "donately-custom-css": "{\".donately-donation-form\":{\"max-width\":\"230px !important\",\"width\":\"230px !important\"},\".donately-toggle-background\":{\"backgroundColor\":\"#eaeaea !important\"},\"#donately-donor-pays-fees:checked + .donately-toggle-parent .donately-toggle-elements .donately-toggle-background\":{\"backgroundColor\":\"rgb(255,216,36) !important\"}}",
+                    "donately-theme": "classic",
+                    "donately-custom-theme": "{\"-FormBackgroundColor\":\"#fbfbfb\",\"-LabelFontSize\":\"15px\",\"-LabelTextTransform\":\"capitalize\",\"-FieldBorderColor\":\"#a1afb9\",\"-ButtonBackgroundColorHover\":\"#fff1bc\",\"-ButtonBorderWidth\":\"0px\",\"-ButtonBorderRadius\":\"4px\",\"-SubmitButtonFontColor\":\"#202f41\",\"-SubmitButtonFontColorHover\":\"#202f41\",\"-SubmitButtonBackgroundColor\":\"#ffcc01\",\"-SubmitButtonBackgroundColorHover\":\"#ffd928\"}",
+                },
+
+                afterFormLoad: () => {
+
+
+                    Donately.$('#donately-donor-pays-fees').attr("checked", true)
+                    Donately.$("#custom-fields-location-submit").change()
+                    Donately.$('#campaign_id').val(campaign).change()
+                    Donately.$(`campaign_id option[value=${campaign}]`).attr("selected", true).change()
+                    console.log("campaign ID :", campaign, Donately.$(`#campaign_id option[value='${campaign}']`).text())
+                    setTimeout(() => {
+                        const element = document.getElementsByClassName("donately-secure-form-container")
+                        const form = document.getElementsByClassName("donately-donation-form")
+                        console.log("form", form)
+                        if (element[0]) {
+                            element[0].style.width = "-webkit-fill-available"
+                        }
+
+                        if (form && form[0]) {
+                            form.map(f => {
+                                f.style.width = "230px!important"
+                                f.style.minWidth = "230px!important"
+                            })
+                        }
+
+                    }, 0);
+                    if (campaign !== 'cmp_c6ae1df4b5a5') {
+                        Donately.$('.donately-custom-fields').hide()
+                        Donately.$("#custom-fields-location-amount").prepend(`<h1 id='campaign_label_id'>You are donating to ${Donately.$(`#campaign_id option[value='${campaign}']`).text()}</h1>`)
+                    }
+                },
+                onSuccess: function (donation) { },
+                onError: function (error) { }
+            }),
+                Donately.donorPaysFees.handleDonorPaysFeesEvents
+        }, false);
+    </script>
+</body>
+
+</html>
