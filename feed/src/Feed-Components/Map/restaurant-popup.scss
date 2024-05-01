@@ -1,0 +1,84 @@
+@use '../styles/colors';
+
+ul.nav {
+  width: 798px;
+  margin: 0 auto 2rem;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 2200 !important;
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+  top: 59px
+}
+ul.nav li.active{
+  background-color: colors.$btn-blue !important;
+}
+ul.nav li.active p{
+  color: colors.$light-navy;
+  opacity: 1.0;
+}
+ul.nav li{
+  background-color: colors.$yellow;
+  width: 399px;
+  height: 50px;
+  transition: all 0.3s;
+  font-weight: 600;
+  font-size: 18.5px;
+  text-align: center;
+  list-style: none;
+  cursor: pointer;
+  padding: 10px;
+}
+ul.nav li p{
+  color: colors.$navy;
+  opacity: 0.4;
+}
+
+ul.nav li:hover{
+  background-color: #ffdf7e !important;
+}
+
+.tabIcon{
+  width: 27px;
+  margin-right: 10px;
+}
+
+.tabText{
+  margin: 0px;
+}
+
+@media (max-width: 991px) {
+
+  ul.nav li{
+    width: 249px;
+  }
+  ul.nav{
+    width: 498px;
+  }
+
+
+}
+@media (max-width: 576px) {
+  ul.nav li{
+    width: 50%;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  ul.nav{
+    width: 96%;
+  }
+
+}
+@media (max-width: 350px) {
+  ul.nav li{
+    font-size: 13px;
+    padding: 10px 4px;
+  }
+  .tabIcon{
+    width: 20px;
+    margin-right: 5px;
+  }
+}
+

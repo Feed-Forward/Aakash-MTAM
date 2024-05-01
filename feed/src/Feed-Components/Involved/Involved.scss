@@ -1,0 +1,446 @@
+.main_con {
+    background-color: #d6e4ea;
+    height: 100%;
+    overflow: hidden;
+}
+
+.get_involved12{
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.text-center_involved {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+button {
+    font-family: unset !important;
+}
+
+.applybutton {
+    font-family: unset !important;
+}
+
+#lastp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main_headertext {
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial_back {
+   // background-color: #eef1f1;
+    height: 100%;
+}
+
+.testimonial_back1 {
+    background-color: #fff;
+    height: 100%;
+}
+
+.brand {
+    padding-top: 10vh;
+}
+
+.brand_partner_bg {
+    background-color: #d6e4ea;
+}
+
+.brandCorporate {
+    width: 80%;
+
+    p {
+        margin: 0;
+        padding: 1vh;
+    }
+
+    p:nth-child(odd) {
+        background-color: #fff;
+    }
+
+    p:nth-child(even) {
+        background-color: #ecedf6;
+    }
+}
+
+
+.side_main {
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 80%;
+
+    h5 {
+        font-size: 3.5vh;
+        line-height: 4vh;
+    }
+}
+
+
+.i-div {
+    position: relative;
+    padding: 56.25% 0 0 0%;
+}
+
+.iframe_2{
+    position: absolute !important;
+    top:0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 0 !important;
+}
+
+// iframe {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     z-index: 0;
+//     clip: rect(0px, 500vh, 990px, 0px);
+// }
+
+.testimonial_footer {
+    p {
+        font-size: 0.8rem;
+        font-weight: 700;
+        color: #63556b;
+        letter-spacing: 3px;
+    }
+}
+
+.cbo_network_bg {
+    background-color: #d6e4ea;
+}
+
+.card-footer {
+    font-size: 0.8rem;
+    margin: 0;
+    margin-top: 1vh;
+    text-align: center;
+}
+
+
+.video2 img {
+    width: 100%;
+}
+
+.video3 img {
+    width: 100%;
+}
+
+.video4 img {
+    width: 100%;
+}
+
+.volunteer_main {
+    margin-top: 67px !important;
+    margin-bottom: 67px;
+}
+
+.volunteer_img img {
+    width: 100%;
+}
+
+//volunteer2 section
+.bg-class {
+    background-color: #d6e4ea;
+    height: 100%;
+}
+
+.working_partners {
+    width: auto;
+}
+
+.volunteers-img {
+    width: 100%;
+}
+
+.p-name {
+    font-weight: 700;
+}
+
+.register-now {
+    width: unset !important;
+    padding: 2vh;
+    color: #fff;
+    height: unset !important;
+    background-color: #5cba47;
+}
+
+//join us 
+.join-us {
+    flex-direction: column;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        font-size: 3.5vh;
+        text-align: center;
+        font-weight: 700;
+    }
+}
+
+.submit-an {
+    background-color: #484897;
+    width: unset !important;
+    padding: 2vh;
+    color: #5cba47;
+    text-decoration: none;
+    height: unset !important;
+    font-weight: 600;
+}
+
+.join-team{
+    width: unset !important;
+    padding: 2vh;
+    color: #fff;
+    text-decoration: none;
+    height: unset !important;
+    background-color: #5cba47;
+    font-weight: 600;
+    cursor: pointer;
+}
+.submit-an:hover{
+    text-decoration: none;
+    color:  #5cba47;
+}
+.join-team:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.image_h {
+    margin: 0 auto;
+}
+
+#patrenerbu {
+    margin-top: 20px !important;
+}
+
+.button-subscribe {
+    margin-bottom: 40px !important;
+}
+
+.image_subh {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_h {
+    border: none;
+    background: none;
+}
+
+.footer_h5 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer_p {
+    text-align: center;
+}
+
+
+
+.main123 {
+    width: 100%;
+    margin-top: 10vh;
+}
+
+.mainsub h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #64566b;
+}
+
+.mainsub_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+.white_color {
+    color: #fff;
+    font-weight: 650;
+    margin-top: 17px;
+}
+.number_color {
+    color: #fff;
+    margin-top: 17px;
+}
+
+.test_cls {
+    margin-bottom: 104px;
+}
+.partner_us{
+    width: unset !important;
+    padding: 2vh;
+    color: #fff;
+    text-decoration: none;
+    height: unset !important;
+    background-color: #5cba47;
+    font-weight: 600;
+}
+
+.footer_bu{
+    margin-top: 30px;
+}
+
+
+
+
+@media screen and (max-width:320px) {
+    .img-fluid_mob {
+        margin-top: 215px;
+    }
+
+    .footer_bu {
+        display: contents;
+
+    }
+}
+
+@media screen and (max-width:515px) {
+
+    .footer_bu {
+        display: contents;
+
+    }
+
+    .submit-an {
+        margin-top: 5px !important;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .lastimage {
+        width: 100%;
+        height: 100%;
+
+    }
+
+}
+
+@media (min-width:320px) and (max-width:768px) {
+    .get_involved {
+        font-size: 22px;
+    }
+
+    .text-center_involved {
+        font-size: 16px;
+    }
+
+    #lastp {
+        font-size: 16px;
+        justify-content: start;
+    }
+
+    .side_main {
+        width: unset;
+    }
+
+    .main12 {
+        margin-top: 5vh;
+    }
+
+    .mainsub {
+        font-size: 14px;
+    }
+
+    .mainsub_header {
+        font-size: 20px;
+    }
+
+    .brandCorporate {
+        width: 100%;
+    }
+}
+
+
+.carousel-indicators-numbers {
+    li {
+      text-indent: 0;
+      margin: 0 2px;
+      width: 30px;
+      height: 30px;
+      border: none;
+      border-radius: 100%;
+      line-height: 30px;
+      color: #fff;
+      background-color: #999;
+      transition: all 0.25s ease;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      &.active, &:hover {
+        margin: 0 2px;
+        width: 30px;
+        height: 30px;
+        background-color: #5cba47;   
+        cursor: pointer;     
+      }
+    }
+}
+
+
+.carousel-indicators-numbers {
+    li {
+      text-indent: 0;
+      margin: 0 2px;
+      width: 30px;
+      height: 30px;
+      border: none;
+      border-radius: 100%;
+      line-height: 30px;
+      color: #fff;
+      background-color: #999;
+      transition: all 0.25s ease;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      &.active, &:hover {
+        margin: 0 2px;
+        width: 30px;
+        height: 30px;
+        background-color: #5cba47;   
+        cursor: pointer;     
+      }
+    }
+}
+
+
+@media screen and (max-width:"320px") {
+    .join-us{
+        height: 45vh;
+    }
+    
+}
+@media screen and (max-width:"320px") {
+    .get_involved{
+        font-weight: 700 !important;
+        margin-left:109px !important;
+    }
+    
+}
+

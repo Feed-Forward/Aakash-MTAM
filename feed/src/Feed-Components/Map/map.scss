@@ -1,0 +1,480 @@
+@use '../styles/colors';
+
+.leaflet-container {
+  margin-top: 0px;
+  height: 549px;
+  width: 100%;
+  position: initial;
+}
+.sc-gswNZR .hCpHso{
+  display: none ;
+}
+.map-sm{
+  display: none;
+}
+.map{
+  height: 68%;
+}
+.marker-borough{
+  caret-shape: inherit;
+}
+.marker-popup-location{
+  font-size: 14px;
+  color: #577491;
+}
+
+
+.marker-popup-location:hover{
+  color: colors.$yellow-dark;
+}
+.marker-popup-description{
+  font-size: 15.5px;
+}
+.marker-popup-img{
+  margin:-10px 0px 0px 0px;
+}
+
+//block with restaurants
+.info-block{
+  background-color: #ffffff;
+  overflow: auto;
+  margin-top: 20px;  
+}
+
+.info-button-div{
+  padding: 10px 10px 10px 0px;
+  margin: 0px 0px 0px -10px;
+  z-index: 1 !important;
+}
+
+.info-button-div button{
+  margin: 0px;
+}
+
+.info-button-div h6{
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.info-search{
+  height: 50px;
+  padding-top: 10px;
+  z-index: 2000 !important;
+}
+
+.info-restaurants{
+  height: 636px;
+  // px 710
+  overflow: auto;
+  margin-top: 0px;
+}
+
+.restBox{
+  background-color: white;
+  padding: 10px;
+  margin: 15px 5px 10px 5px;
+  // border: #edf5fc solid 1px;
+}
+
+.restBox p {
+ margin: 5px 5px 0 0;
+  font-size: 15px;
+}
+
+.restBox h6 {
+  margin: 0px;
+  color: colors.$navy !important;
+  font-weight: 800;
+}
+
+
+.rest-btns{
+  padding: 0;
+  margin: 0;
+}
+.donate-std{
+  width: 41% !important;
+  margin:1vh 0 !important;
+  padding:1vh 0 !important;
+}
+.learn-more{
+  margin:1vh 0 !important;
+  padding:1vh 0 !important;
+}
+.rest-btns-col{
+  margin: 1vh auto;
+  text-align: center;
+}
+
+.cuisine{
+  color: lightslategray !important;
+}
+
+//food insecurity rates breakdown
+.rate{
+  margin: 0px 0px -5px 0px;
+  padding: 0px;
+}
+
+.rates-row{
+  margin: -630px 0px 0px 0px;
+  background-color: white;
+  position: relative;
+  z-index: 1 !important;
+  margin-right:0px !important;
+  margin-left:0px !important;
+}
+.rates-row p{
+  margin-bottom: 4px;
+  color: colors.$navy;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.colorCoding1{
+  background-color: #fff0f0;
+}
+
+.colorCoding2{
+  background-color: #f7dada;
+}
+
+.colorCoding3{
+  background-color: #f4cbcb;
+}
+
+.colorCoding4{
+  background-color: #de9b9b;
+}
+
+.colorCoding5{
+  background-color: #c46e6e;
+}
+
+.rates{
+  padding-top: 7px;
+}
+
+//statics
+.stats-bg-sm{
+  display: none !important;
+}
+
+.stats-bg-md{
+  margin: 0px;
+  margin-right: 0px !important;
+  margin-bottom:-4px !important;
+  margin-left:0px !important;
+}
+
+.stats{
+  position: relative;
+  width: 100%;
+}
+
+.stats-borough{
+  margin: 0px 5px 10px 3px;
+  width: 100%;
+  margin: 0;
+  background-color: #eef1f1;
+  padding: 0px;
+  margin-bottom: 0;
+}
+
+.stats-borough-txt{
+  padding: 15px 15px 0px 15px;
+  color: colors.$navy;
+  min-height: 220px;
+  margin-bottom: 5px;
+}
+
+.stats-borough-txt p{
+  color: colors.$text-body-blue;
+  font-size: 15px;
+}
+
+.stat-col{
+  margin: 0px 0px 5px -5px;
+  padding: 15px 10px 10px;
+  background-color: #eef1f1;
+}
+
+.stat-col p{
+  margin-right: 10px;
+  // margin-top: 90px;
+    color: gray;
+}
+
+.stat-col h6{
+  font-size: 12px;
+  color: colors.$navy;
+}
+
+
+.btn-custom-color:hover{
+  background-color: white;
+  color: colors.$navy;
+}
+.donate-btn{
+  width: 84px !important;
+}
+.donate-btn:hover{
+  background-color: colors.$navy;
+  color: white;
+}
+
+.stat-attribution{
+  text-align: right;
+  font-size: 10px;
+  margin: 0px ;
+  padding: 0px;
+  bottom: 0px;
+}
+.col-standard{
+  position: unset;
+}
+
+@media (max-width: 1240px) {
+  .rest-txt{
+    padding: 0px;
+  }
+  .stat-col h3{
+    font-size: 16px;
+  }
+
+  .stats-borough-txt h3{
+    font-size: 16px;
+    padding-left: 0px;
+  }
+
+  .stat-attribution{
+    margin: 0px;
+  }
+  .info-block{
+    padding: 5px;
+  }
+  .donate-btn{
+    width: 90px;
+    margin: 0px;
+  }
+}
+@media (max-width: 900px) {
+
+  .stat-col h3{
+    font-size: 15px;
+  }
+  .stats-borough-txt{
+    padding: 15px 5px 0px;
+  }
+  .stats-borough-txt h3{
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .info-block{
+    padding: 2px;
+  }
+  .restBox{
+    padding: 5px;
+  }
+  .rates-row p{
+    font-size: 9px;
+    padding: 0px;
+
+  }
+
+}
+
+@media (max-width: 768px)  {
+  .map-container{
+    padding: 0 !important;
+  }
+  .stat-col{
+    border-bottom: 1px solid green;
+  }
+  .leaflet-container {
+    height: 700px;
+  }
+
+  .borough-btn{
+    margin-right: 30px;
+  }
+
+  .rates-row {
+    display: none !important;
+  }
+
+  .rates-row-sm {
+    margin: 0px 0px 0px 10px;
+    background-color: white;
+    width: 100%;
+  }
+  .map-sm{
+    display: inherit;
+  }
+  .map-md{
+    display: none;
+  }
+  .map-container{
+    padding: 0px;
+  }
+  .leaflet-container {
+    height: 510px;
+  }
+  .stats-bg-md{
+    display: none !important;
+  }
+
+  .stats-bg-sm{
+    display: block !important;
+  }
+  .stat-cols-sm{
+    margin: -10px 0px 0px 0px;
+    padding: 0px !important;
+
+  }
+  .stat-col{
+    margin: 0 !important;
+  }
+  .rates{
+    padding: 0px;
+    border-top: white solid 1px;
+  }
+
+  .rates p{
+    margin: 0px 2px 0px 10px;
+  }
+
+  .rates-row p{
+    font-size: 9px;
+    padding: 0px;
+    font-weight: normal;
+  }
+  .rates-row-sm{
+    margin: 0 !important;
+  }
+
+  .stats{
+    background-color: rgba(255,255,255, 0);
+    overflow: hidden;
+  }
+
+  .stat-attribution {
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .chart-row{
+    display: none;
+    height: 0px;
+    margin: 0px;
+  }
+
+  .stat-col{
+    margin: 0px 0px 0px 10px;
+    padding: 3px 0px 0px 10px;
+    width: 100% !important;
+  }
+
+  .stat-col h6{
+    font-size: 11px;
+    text-transform: lowercase;
+    letter-spacing: 1.2px;
+    margin-bottom: 5px;
+  }
+
+  .stat-col h3{
+    font-size: 13px;
+    margin: 0px 10px 0px 5px;
+  }
+
+  .stat-inline-block{
+    display: inline;
+  }
+
+  .stat-col p{
+    font-size: 8px;
+  }
+
+  .stats-borough{
+    margin: 0 !important;
+  }
+
+  .stats-borough-txt{
+    padding: 10px 0px 5px 10px;
+    margin: 0px;
+    min-height: 30px;
+  }
+  
+  .stats-borough-txt p{
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+
+  .rates p, .restBox p,.restBox h6{
+    font-size: 11px;
+  }
+
+  .restBox{
+    background-color: white;
+    padding: 10px;
+    margin: 10px 5px 10px 5px;
+  }
+
+  .restBox p{
+    margin: 5px 5px 0 0;
+    font-size: 14px;
+    color: colors.$text-body-blue !important;
+  }
+
+
+  .navy-colored-bli .restBox p{
+    margin: 5px 5px 0 0;
+    font-size: 14px;
+  }
+
+  .rest-txt{
+    padding: 0px;
+  }
+
+  .restBox h6 {
+    margin: 0px 0px 0px 0px;
+    font-size: 12px;
+  }
+
+  .cuisine{
+    font-size: 14px;
+  }
+
+  .leaflet-popup-content-wrapper {
+    max-width: 290px;
+  }
+
+  .leaflet-control-attribution{
+    font-size: 5px;
+  }
+
+  .leaflet-popup-content p {
+    margin: 10px 0;
+    font-size: 12px;
+  }
+
+  .info-block {
+    margin-top: -52px;
+  }
+
+  .info-block h6 {
+    font-size: 10px;
+  }
+
+}
+.rest-btns-col col-standard donate-std{
+  margin-left: -10px;
+}
+
+.leaflet-top{
+  z-index: 400 !important;
+}
+.leaflet-bottom{
+   z-index: 400 !important;
+}

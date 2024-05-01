@@ -1,0 +1,208 @@
+/* ........................................................... New CSS........................................................... */
+
+// new 
+.text-float {
+    margin: 10px;
+}
+
+.divider {
+    margin-left: 42px;
+    color: gray;
+    text-decoration: none;
+}
+.divider :hover {
+    text-decoration: none !important;
+}
+.container-background {
+    background-color: #241746;
+    color: white;
+    position: relative;
+}
+
+.text-margin {
+    position: absolute;
+    left:50px;
+    top:6px;
+}
+.headerbutton {
+    height:100px;
+    background: #19ec29;
+    width: 11%;
+}
+.desktop-nav {
+    height: 10vh;
+    background-color: #fff;
+    box-shadow: 0 0 21px 3px rgb(0 0 0 / 50%)
+}
+.logo-img {
+    width: 8vh !important;
+    margin-left: 5vh;
+}
+.nav-list {
+    display:flex;
+    align-items:center;
+    height: 100%;
+    padding: 0 2vh;
+}
+
+.nav-menu {
+    height:100%;
+    width:100%;
+    p {
+        margin: 0;
+        font-size: 1.1rem;
+        font-weight: 500;
+      }
+}
+.nav-list {
+    margin: 0;
+    font-size:1rem;
+    font-weight:500;
+}
+.need-food {
+    border: 2px solid #5cba47;
+    padding: 1vh 1vh;
+}
+.need-food1:hover {
+    background-color: rgb(5, 5, 77);
+    border: none;
+    color: white;
+    border: 2px solid rgb(5, 5, 77);
+}
+.need-food1 {
+    border: 2px solid #5cba47;
+    padding: 1vh 1vh;
+    color: black;
+    border-radius: 5px;
+}
+.give-food {
+    color: #fff;
+    background-color: #5cba47;
+}
+.logo-name {
+    margin: 0;
+    font-size: 3vh;
+    font-weight: 500;
+    line-height: 3vh;
+}
+.nav-list LINK {
+    text-decoration: none;
+}
+.global_img img {
+    height: 3vh;
+    display: flex;
+    float: right;
+    margin: 11px -26px 0px 0px;
+}
+.mob_size {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.dropdown-toggle2{
+    font-weight: 600 !important;
+}
+.form-control:focus {
+    outline: 0 !important;
+}
+.bootstrap-select .dropdown-toggle:focus {
+    outline: none!important;
+}
+.dropdown-menu{
+    transform: translate3d(10px, 24px, 0px) !important;
+    top: 25px !important;
+    left: unset !important;
+    border-radius: 0px !important;
+    padding: 0 !important;
+}
+.dropdown-menu a{
+    padding: 1vh 2vh 1vh 0vh;
+    text-decoration: none;
+    color: #000;
+    font-size: 0.9rem;
+}
+.dropdown-menu a:hover{
+    color: #2496d1;
+}
+  .dropdown-menu .dropdown-item:hover {
+    background-image: none !important;
+    background-color: transparent !important;
+  }
+  
+// mobile nav
+.mobile-nav {
+    background-color: #fff;
+    height: 10vh;
+    box-shadow: 0 0 21px 3px rgb(0 0 0 / 20%)
+}
+.dropdown-toggle{
+    text-transform: none !important;
+    color: #000 !important;
+    margin-inline: 2vh !important;
+    text-decoration: none !important;
+}
+.dropdown_get{
+    background: none;
+    background-color: none !important;
+    background-color: transparent !important;
+    color: transparent !important;
+}
+
+@media(min-width:768px) and (max-width:993px) {
+    .nav-list {
+        font-size: 0.8rem !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .canva {
+        height: 32% !important;
+    }
+    .hiddencontent {
+        display: none;
+    }
+}
+.dropdown-toggle2 .btn{
+    background-color: transparent !important;
+    border: none !important;
+    font-weight: 600;
+    margin-bottom: 21px;
+}
+.dropdown-toggle2.btn:hover{
+    background-color: transparent I !important;
+    border: none !important;
+    box-shadow: none !important;
+
+}
+.dropdown-toggle2 .btn:focus{
+    border: none !important;
+    background-color: transparent !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.dropdown-toggle2.btn:active{
+    box-shadow: none !important;
+}
+.drop_bu{
+    margin-right: 41px !important;
+}
+.dropdown_anch{
+    margin-left: 15px;
+}
+.dropdown_about{
+    margin-left:30px;
+}
+.dropdown-toggle2{
+    margin-top: 19px !important;
+}
+.offcanvas-header{
+    padding: 1vh !important;
+    box-shadow: 0 0 9px 3px rgb(0 0 0 / 20%);
+    h5{
+        margin: 0;
+    }
+}
+.off_can{
+    text-decoration: none;
+    color:#000;
+}

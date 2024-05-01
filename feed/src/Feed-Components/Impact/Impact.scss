@@ -1,0 +1,95 @@
+.main_imp {
+    background-color: #d6e5eb;
+    height:100%;
+    overflow: hidden;
+
+    h2 {
+        font-weight: 700;
+    }
+
+    p {
+        font-weight: 500;
+    }
+}
+
+.bg-impact {
+    background-color: #ffffff;
+}
+
+.sub_impact {
+    font-weight: 900;
+    font-size: 10px;
+    color: #63556b;
+    letter-spacing: 2px;
+}
+
+.card-footer_imp {
+    margin-top: 2vh;
+    padding: 1vh 2vh;
+    text-align: left !important;
+
+    h5 {
+        font-size: 2.6vh;
+        font-weight: 700;
+        margin: 0;
+        color: #363268;
+    }
+
+    p {
+        color: #2b2c2c;
+        font-size: 0.8rem;
+        margin: 0;
+        margin-top: 1vh;
+        font-weight: 500;
+    }
+
+    h6 {
+        color: #363268 !important;
+        font-size: 0.7rem;
+        margin: 0;
+        font-weight: 800;
+        margin-top: 2vh;
+    }
+}
+
+.tooltip_but{
+    height:4vh;
+    margin-right:5px;
+}
+
+.slider_bullet_imp {
+    font-size: 18px;
+}
+
+.width1240_map{
+    max-width:1240px !important;
+    margin:0 auto !important;
+    padding:0 10px !important;
+    margin-bottom: 50px !important;
+}
+
+@media (min-width:320px) and (max-width:993px) {
+    .white-txtt{
+        justify-content: start;
+        align-items: start;
+    }
+}
+
+
+@media screen and (max-width:"333px") {
+    .tooltip_but{
+        height: 3vh;
+            margin-right: 5px;
+            margin-top: -85px;
+            margin-right: -5px;
+        
+    }
+    
+}
+@media screen and (max-width:"320px") {
+    .main_pix{
+        margin-left: 0px !important;
+    }
+    
+}
+

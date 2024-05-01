@@ -1,0 +1,326 @@
+.text-block {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+}
+.chart-row{
+    display: none;
+    height: 0px;
+    margin: 0px;
+  }
+
+select {
+    height: 40px;
+}
+
+input {
+    height: 40px;
+}
+
+textarea {
+    height: 40px;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Preferred {
+    color: #3b4f63;
+
+}
+
+.heroImg {
+    height: 22vh;
+    width: 100%;
+}
+
+.formBtn {
+    background-color: #8d47cf;
+    border: 1px solid blue;
+    border-radius: 4px;
+    color: white;
+}
+
+.formBtn:hover {
+    background-color: #860b0b;
+}
+
+.san_header {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.formHead {
+    background-color: #C8C8C8;
+}
+
+.selectState {
+    width: 100%;
+}
+
+.language {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.material_Status {
+    width: 100%;
+    border: none;
+    outline:none;
+}
+
+.describe_yourself {
+    width: 100%;
+    border: none;
+
+}
+
+.program {
+    width: 100%;
+    border: none;
+}
+
+.Dependents {
+    width: 100%;
+    border: none;
+    outline:none;
+}
+
+.enrolled {
+    width: 100%;
+    border: none;
+}
+
+.meals {
+    width: 100%;
+    border: none;
+    outline:none;
+}
+
+.Meal_Details {
+    width: 100%;
+    border: none;
+}
+
+#Term {
+    color: #9b51e0;
+}
+
+#zip {
+    width: 100% !important;
+    border: none;
+    color: #3b4f63;
+    outline:none;
+}
+
+.Zip_code {
+    width: 100%;
+    border: none;
+    outline:none;
+}
+
+.phone {
+    width: 100%;
+    border: none;
+    color: #3b4f63;
+    outline:none;
+}
+
+.Street {
+    width: 100% !important;
+    border: none;
+    outline:none;
+}
+.apartment{
+    width: 100%;
+    border:none;
+    outline:none;
+}
+
+.form-control {
+    border-radius: none;
+}
+
+.city {
+    width: 100%;
+    border: none;
+    outline:none;
+}
+
+.email {
+    width: 100%;
+    border: none;
+    color: #3b4f63;
+    outline:none;
+}
+
+.first_name {
+    width: 100%;
+    border: none;
+    color: #3b4f63;
+    outline:none;
+}
+
+.person {
+    width: 100%;
+    outline:none;
+}
+
+.cheack {
+    height: 24px;
+    width: 24px;
+}
+
+.program {
+    width: 100%;
+    outline:none;
+}
+
+.last_name {
+    width: 100%;
+    border: none;
+    color: #3b4f63;
+    outline:none;
+}
+
+.wpforms-required-label {
+    color: #ff0000;
+    font-weight: normal;
+}
+
+.selectState {
+    border: none;
+    color: #3b4f63;
+    outline:none;
+}
+
+.stateborder {
+    color: #3b4f63;
+}
+
+@media (max-width:770px) {
+    .h_one {
+        font-size: 20px;
+    }
+}
+
+.snap {
+    height: 5vh;
+}
+
+.extra-info {
+    display: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: inherit;
+    font-style: initial;
+    margin-top: 0px;
+    padding: 0vh 1vh;
+    margin-left: 1vh;
+}
+
+
+.info:hover .extra-info {
+    display: block;
+    border-radius: 5px;
+    width: 60vh;
+    position: absolute;
+    left: 4vh;
+    top: 1px;
+    background-color: #ffffff;
+
+}
+
+.icon-info-sign {
+    color: #fff;
+    filter: brightness(0.5);
+    font-size: 20px;
+    margin-top: -4.5px;
+}
+
+.info {
+    font-size: 20px;
+    padding-left: 5px;
+    display: flex;
+    height: 70%;
+    position: relative;
+}
+
+.info:hover {
+    padding: 0 0 0 5px;
+    width: 100%;
+    text-align: left !important;
+    border-radius: 50vh;
+}
+
+.info .extra-info::after {
+    content: "";
+    position: absolute;
+    bottom: 27%;
+    left: -12px;
+    /* margin-left: -5px; */
+    border-width: 7px;
+    border-style: solid;
+    border-color: transparent #fff transparent transparent;
+}
+@media (min-width:320px) and (max-width:576px) {
+    .info:hover .extra-info {
+        width: 31vh;
+        left: -21vh;
+        top: 30px;
+    }
+
+    .info .extra-info::after {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        left: 69%;
+        border-width: 7px;
+        border-style: solid;
+        border-color: transparent transparent #fff transparent;
+    }
+}
+
+@media (min-width:577px) and (max-width:767px) {
+    .info:hover .extra-info {
+        width: 31vh;
+        left: -12vh;
+        top: 31px;
+    }
+
+    .info .extra-info::after {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        left: 40%;
+        border-width: 7px;
+        border-style: solid;
+        border-color: transparent transparent #fff transparent;
+    }
+}
+
+@media (min-width:768px) and (max-width:993px) {
+    .info:hover .extra-info {
+        width: 44vh;
+        left: 4vh;
+        top: -9px;
+    }
+
+    .info .extra-info::after {
+        content: "";
+        position: absolute;
+        bottom: 36%;
+        left: -17px;
+        /* margin-left: -5px; */
+        border-width: 9px;
+        border-style: solid;
+        border-color: transparent #fff transparent transparent;
+    }
+}
