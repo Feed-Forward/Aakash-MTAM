@@ -122,23 +122,23 @@ export const Dashboard = (props) => {
     );
   }
 
-  function autoPalay() {
-    setTimeout(() => {
-      const iframe = document.querySelector("iframe");
-      const options = {
-        loop: true,
-        autoPlay: true,
-      };
-      const player = new Player(iframe, options);
-      player.on("play", function () {
-        player.setLoop(true).then(function (loop) { });
-      });
-      player.play();
-    }, 0);
-  }
-  useEffect(() => {
-    autoPalay();
-  }, []);
+  // function autoPalay() {
+  //   setTimeout(() => {
+  //     const iframe = document.querySelector("iframe");
+  //     const options = {
+  //       loop: true,
+  //       autoPlay: true,
+  //     };
+  //     const player = new Player(iframe, options);
+  //     player.on("play", function () {
+  //       player.setLoop(true).then(function (loop) { });
+  //     });
+  //     player.play();
+  //   }, 0);
+  // }
+  // useEffect(() => {
+  //   autoPalay();
+  // }, []);
 
   return (
     <>
@@ -209,10 +209,8 @@ export const Dashboard = (props) => {
                 <iframe
                   src="https://player.vimeo.com/video/793224457?h=44b451206c&title=0&byline=0&portrait=0"
                   frameborder="0"
-                  allow="autoplay; fullscreen; picture-in-picture"
+                  allow="fullscreen; picture-in-picture"
                   allowfullscreen
-                  muted="muted"
-                  onLoad={autoPalay}
                   id="iframe_1"
                 ></iframe>
               </div>

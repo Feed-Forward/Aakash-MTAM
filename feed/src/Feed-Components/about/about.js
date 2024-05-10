@@ -3,7 +3,7 @@ import '../about/about.scss';
 import Winston from "../assets/Winston.jpg";
 import Xavier from "../assets/Xavier.jpg";
 import Michale from "../assets/Michael.jpg";
-import Sanjana from "../assets/Sanjana.jpg";
+import Emily from "../assets/EmilyLew.JPG";
 import Caitlin from "../assets/Caitlin.jpg";
 
 
@@ -53,11 +53,11 @@ export const About = () => {
                 <div sx="12" className="maincontainer">
                   <div className='transform-effect'>
                     <div className="bio"></div>
-                    <img src={Sanjana} alt="Meg Savage" className="zoom" />
-                    <h4> Sanjana Palkhiwala </h4>
-                    <h5>Impact Manager</h5>
+                    <img src={Emily} style={{height:"40%"}} alt="Meg Savage" className="zoom" />
+                    <h4> Emily Lew </h4>
+                    <h5>Deputy Director</h5>
                     <div className="bio-txt">
-                      <h5>Sanjana blends her passion for food with her professional experience to make a positive impact in her community. With a background in finance and technology management, She is dedicated to using her skills to help better understand the needs of her community and working to create strategies that will help them. She is excited to continue learning, growing and making a difference in the community</h5>
+                      <h5>Emily, with over a decade of experience in NYC's restaurant industry, now applies her expertise to combat food insecurity. From her background at prestigious establishments like Blue Hill at Stone Barns to managing a bustling Midtown restaurant, she channels her skills to address this pressing issue. Through initiatives in procurement, inventory control, and talent acquisition, Emily spearheads efforts to empower those facing hunger. Her commitment to service bridges culinary excellence with social advocacy, making a tangible impact in her community.</h5>
                     </div>
                   </div>
                 </div>

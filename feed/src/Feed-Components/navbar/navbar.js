@@ -123,7 +123,7 @@ export const Navbar = (props) => {
       <div className="container-fluid container-background hiddencontent">
         <div className="row">
           <div className="col-10">
-            <p className="text-margin">
+           {/* <p className="text-margin">
               Latest News: Welcome to More Than a Meal. Caribbean-American Heritage Month LGBT Pride Month {banner}!
             </p>
            {/* {!banner && <div class="spinner-border spinner-border-sm text-light" role="status" style={{margin: "11px 0px 0px 375px"}}>

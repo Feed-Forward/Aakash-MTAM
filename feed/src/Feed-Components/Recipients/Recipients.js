@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from "react-router-dom";
 import './Recipients.scss';
-import hero2 from "../../../../feed-forward/src/Feed-Components/assets/images/herobg.jpg";
+import hero2 from "../assets/images/herobg.jpg";
 import { AiFillInfoCircle } from "react-icons/ai";
 
 const Recipients = () => {
